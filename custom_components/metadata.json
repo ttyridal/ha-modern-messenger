@@ -1,0 +1,9 @@
+{
+  "domain": "modern_messenger",
+  "name": "Modern Messenger",
+  "version": "0.1.0",
+  "codeowners": ["@ttyridal"],
+  "dependencies": [],
+  "documentation": "https://github.com/ttyridal/ha-modern-messenger",
+  "iot_class": "cloud_polling"
+}

@@ -1,0 +1,36 @@
+send_notification:
+  name: Send Messenger Notification
+  description: Sends a post to one or more Messenger targets.
+  fields:
+    message:
+      name: Message
+      description: The message text.
+      required: true
+      selector:
+        text: {}
+    targets:
+      name: Targets
+      description: List of Target IDs (User IDs, Group IDs, or alias(config)).
+      required: true
+      selector:
+        select:
+          multiple: true
+          custom_value: true
+          options:
+            - label: "me"
+              value: "me"
+    image_entity:
+      name: Image Entity
+      description: Optional image entity to attach.
+      required: false
+      selector:
+        entity:
+          domain: image
+    image_url:
+      name: Image URL
+      description: A URL of an image to download and attach.
+      required: false
+      selector:
+        text:
+          type: url
+

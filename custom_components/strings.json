@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Modern Messenger",
+        "description": "Enter your app's Page Access Token",
+        "data": {
+          "access_token": "Page Access Token"
+        }
+      },
+      "aliases": {
+          "title": "Configure Aliases",
+        "description": "format: alias=recipient id",
+        "data": {
+          "alias_0": "First Alias",
+          "alias_1": "Second Alias",
+          "alias_2": "Third Alias",
+          "alias_3": "Fourth Alias",
+          "alias_4": "Fifth Alias"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Facebook",
+      "invalid_auth": "Invalid authentication credentials",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This App ID is already configured."
+    }
+  }
+}
+
+
