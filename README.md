@@ -1,7 +1,6 @@
-# Modern Messenger
-[![hacs_badge](https://img.shields.io)](https://github.com)
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=ttyridal&repository=ha-modern-messenger&category=Notify+integration)
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://hacs.xyz/)
 
+# Modern Messenger
 This integration provides a notification target for Facebook Messenger. It is a modern alternative to the 
 legacy integration, fully configurable from the UI. It supports sending text, url to images and entity.image.
 
@@ -16,6 +15,8 @@ legacy integration, fully configurable from the UI. It supports sending text, ur
 The preferred method is to install **Modern Messenger** via HACS.
 
 ### HACS (Recommended)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=ttyridal&repository=ha-modern-messenger&category=Notify+integration)
 
 1.  **Open HACS** in your Home Assistant frontend.
 2.  Navigate to **Integrations**.
